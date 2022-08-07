@@ -19,7 +19,7 @@ body:
       description: |
         Please provide valid reason(s) why this should be a part of Skanna.
         Is this feature meant to solve an existing problem, if so please mention it as well.
-      placeholder: 'A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]'
+      placeholder: A clear and concise description of what the problem is. Ex. I am always frustrated when [...]
     validations:
       required: true
 
@@ -29,17 +29,17 @@ body:
       label: Proposed Solution
       description: |
         Please provide a description on how you would like the feature to work.
-      placeholder: "A clear and concise description of what you want to happen."
+      placeholder: A clear and concise description of what you want to happen.
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Proposed Solution
+      label: Alternatives
       description: |
-        Describe alternatives you've considered.
-      placeholder: "A clear and concise description of any alternative solutions or features you've considered."
+        Describe alternatives you have considered.
+      placeholder: A clear and concise description of any alternative solutions or features you have considered.
     validations:
       required: true
 
