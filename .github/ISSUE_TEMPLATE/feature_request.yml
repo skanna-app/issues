@@ -1,8 +1,8 @@
-name: '✨ Feature Request'
-description: 'Request a feature or enhancement'
-labels: ['feature']
+name: ✨ Feature Request
+description: Request a feature or enhancement
+labels: [feature]
 body:
-  - type: 'markdown'
+  - type: markdown
     attributes:
       value: |
         ### Thank you for requesting a feature but before you do please...
@@ -12,42 +12,41 @@ body:
 
         ### Help us help you better
 
-  - type: 'textarea'
-    id: 'justification'
+  - type: textarea
+    id: justification
     attributes:
-      label: 'Problem Statement'
+      label: Problem Statement
       description: |
-        Please provide valid reason(s) why this should be a part of Skanna
-
+        Please provide valid reason(s) why this should be a part of Skanna.
         Is this feature meant to solve an existing problem, if so please mention it as well.
       placeholder: 'A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]'
     validations:
       required: true
 
-  - type: 'textarea'
-    id: 'proposed-solution'
+  - type: textarea
+    id: proposed-solution
     attributes:
-      label: 'Proposed Solution'
+      label: Proposed Solution
       description: |
         Please provide a description on how you would like the feature to work.
       placeholder: "A clear and concise description of what you want to happen."
     validations:
       required: true
 
-  - type: 'textarea'
-    id: 'alternatives'
+  - type: textarea
+    id: alternatives
     attributes:
-      label: 'Proposed Solution'
+      label: Proposed Solution
       description: |
         Describe alternatives you've considered.
       placeholder: "A clear and concise description of any alternative solutions or features you've considered."
     validations:
       required: true
 
-  - type: 'textarea'
-    id: 'additional-information'
+  - type: textarea
+    id: additional-information
     attributes:
-      label: 'Additional Information'
+      label: Additional Information
       description: |
         What resources (links, inspirations, designs, screenshots, etc.) do you have to assist this effort?
-      placeholder: 'Any and every additional information is always welcome'
+      placeholder: Any and every additional information is always welcome
