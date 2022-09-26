@@ -1,6 +1,6 @@
 name: ✨ Feature Request
 description: Request a feature or enhancement
-labels: [feature]
+labels: [✨ feature]
 body:
   - type: markdown
     attributes:
@@ -40,8 +40,6 @@ body:
       description: |
         Describe alternatives you have considered.
       placeholder: A clear and concise description of any alternative solutions or features you have considered.
-    validations:
-      required: true
 
   - type: textarea
     id: additional-information
